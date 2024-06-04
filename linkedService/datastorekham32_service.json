@@ -1,0 +1,12 @@
+{
+	"name": "datastorekham32_service",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://datastorekham32.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEE5MzE3QTQ4LUU4NTctNDJCRC05REY5LURDRDlERTJBNzBERl82NjA5N2RjZC0zN2JlLTQyZjgtYmE4Ny1hYWRkNDRmNGY3YzQiDQp9"
+		}
+	}
+}
